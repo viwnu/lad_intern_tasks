@@ -31,7 +31,7 @@ massive.forEach(function(item, index, array) {
   let day = daysRus.indexOf(item);
   if(day >= 0) {
     array[index] = daysEng[day];
-  }
+  };
 });
 
 console.log(massive.join(''));
